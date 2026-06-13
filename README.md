@@ -78,73 +78,6 @@ studyflow/
 └── README.md
 ```
 
----
-
-## ⚡ Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/YOUR_USERNAME/studyflow.git
-```
-
-Move into the project directory:
-
-```bash
-cd studyflow
-```
-
-Install dependencies:
-
-```bash
-npm install
-```
-
-Start the development server:
-
-```bash
-npm run dev
-```
-
-Open:
-
-```text
-http://localhost:5173
-```
-
----
-
-## 🏗️ Build for Production
-
-```bash
-npm run build
-```
-
-Preview the production build:
-
-```bash
-npm run preview
-```
-
----
-
-## 🌐 Deployment
-
-The project can be deployed using:
-
-- Vercel
-- Netlify
-- GitHub Pages
-
-### Deploy on Vercel
-
-1. Push code to GitHub.
-2. Login to Vercel.
-3. Import the repository.
-4. Click Deploy.
-
----
-
 ## 🎯 Future Improvements
 
 - Firebase Authentication
@@ -160,14 +93,14 @@ The project can be deployed using:
 
 ## 📸 Screenshots
 
-```md
+
 ![Login Page](Screenshots/Login.png)
 ![Dashboard](Screenshots/dashboard.png)
 ![Tasks](Screenshots/tasks.png)
 ![Study Timer](Screenshots/studytimer.png)
 ![Timetable](Screenshots/timetable.png)
 ![Analytics](Screenshots/Analytics.png)
-```
+
 
 ---
 
