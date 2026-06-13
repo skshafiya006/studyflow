@@ -1,16 +1,197 @@
-# React + Vite
+# 📚 StudyFlow
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+StudyFlow is a modern student productivity web application built using React. It helps students manage tasks, track study sessions, maintain notes, organize timetables, and monitor academic progress through analytics.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### 🏠 Dashboard
+- Daily productivity overview
+- Motivational quotes
+- Task progress tracking
+- Study time summaries
+- Study streak tracking
 
-## React Compiler
+### ✅ Task Manager
+- Create, edit, and delete tasks
+- Set priorities (High, Medium, Low)
+- Subject-wise organization
+- Mark tasks as completed
+- Filter by status and subject
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### ⏱️ Pomodoro Study Timer
+- 25-minute focus sessions
+- Short and long break modes
+- Automatic study session logging
+- Daily study goal tracking
 
-## Expanding the ESLint configuration
+### 📅 Weekly Timetable
+- Create and manage class schedules
+- Weekly timetable view
+- Subject-based color coding
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 📊 Analytics Dashboard
+- Study time tracking
+- Subject-wise study distribution
+- Task completion statistics
+- Weekly productivity insights
+- Study streak monitoring
+
+### 📝 Notes Manager
+- Create and organize study notes
+- Subject categorization
+- Search functionality
+- Tags support
+
+### ⚙️ Settings
+- User profile management
+- Daily and weekly study goals
+- Dark/Light theme support
+- Data export functionality
+
+---
+
+## 🛠️ Tech Stack
+
+- React
+- JavaScript (ES6+)
+- Vite
+- HTML5
+- CSS3
+- Local Storage
+
+---
+
+## 📂 Project Structure
+
+```text
+studyflow/
+│
+├── public/
+│
+├── src/
+│   ├── App.jsx
+│   ├── main.jsx
+│
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## ⚡ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/studyflow.git
+```
+
+Move into the project directory:
+
+```bash
+cd studyflow
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open:
+
+```text
+http://localhost:5173
+```
+
+---
+
+## 🏗️ Build for Production
+
+```bash
+npm run build
+```
+
+Preview the production build:
+
+```bash
+npm run preview
+```
+
+---
+
+## 🌐 Deployment
+
+The project can be deployed using:
+
+- Vercel
+- Netlify
+- GitHub Pages
+
+### Deploy on Vercel
+
+1. Push code to GitHub.
+2. Login to Vercel.
+3. Import the repository.
+4. Click Deploy.
+
+---
+
+## 🎯 Future Improvements
+
+- Firebase Authentication
+- Cloud Database (Firestore)
+- AI Study Recommendations
+- Smart Timetable Generator
+- Attendance Tracker
+- Exam Planner
+- Cross-device Synchronization
+- Mobile App Version
+
+---
+
+## 📸 Screenshots
+
+```md
+![Login Page](Screenshots/Login.png)
+![Dashboard](Screenshots/dashboard.png)
+![Tasks](Screenshots/tasks.png)
+![Study Timer](Screenshots/studytimer.png)
+![Timetable](Screenshots/timetable.png)
+![Analytics](Screenshots/Analytics.png)
+```
+
+---
+
+## 🤝 Contributing
+
+Contributions, suggestions, and feedback are welcome.
+
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Open a Pull Request
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 👨‍💻 Author
+
+Shafiya
+
+Electrical Engineering Student | IIT Madras
+
+Built with ❤️ using React.
